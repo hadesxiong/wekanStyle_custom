@@ -84,3 +84,11 @@
 .minicard .minicard-description .viewer p {
   margin: 0;
 }
+.list-body .minicards .add-controls button {
+  min-height: auto;
+  padding: 8px 20px;
+}
+.edit-controls .fa-times-thin,
+.add-controls .fa-times-thin {
+  font-size: 18px;
+}

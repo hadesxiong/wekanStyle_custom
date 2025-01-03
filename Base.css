@@ -13,3 +13,13 @@ hr {
 .member .avatar {
   border-radius: 4px;
 }
+* {
+  scrollbar-color: #dbdbdb transparent;
+  scrollbar-width: thin;
+}
+
+.board-color-belize button[type="submit"].primary,
+.board-color-belize input[type="submit"].primary,
+.board-color-belize .sidebar .sidebar-content .sidebar-btn {
+  border-radius: 4px;
+}

@@ -36,6 +36,47 @@
   width: 100%;
   margin-left: 20px;
 }
+.card-details .card-details-canvas .card-details-header .inlined-form {
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+}
+.card-details .card-details-canvas .card-details-header .inlined-form textarea {
+  height: fit-content !important;
+}
+.card-details
+  .card-details-canvas
+  .card-details-header
+  .inlined-form
+  .edit-controls {
+  margin-bottom: 0px;
+}
+.card-details
+  .card-details-canvas
+  .card-details-header
+  .inlined-form
+  a.fa.fa-copy {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.card-details
+  .card-details-canvas
+  .card-details-header
+  .inlined-form
+  .copied-tooltip {
+  position: absolute;
+  padding: 8px 10px;
+  right: 40px;
+  width: fit-content;
+}
+
+.card-details .card-details-header .copied-tooltip {
+  margin-right: 8px;
+ 	padding: 2px 6px;
+  min-width: 56px;
+}
+
 .card-details .card-details-canvas .card-details-header .close-card-details {
   margin-right: 20px;
 }
@@ -174,12 +215,12 @@
   padding-right: 8px;
 }
 .checklist-progress-bar-container .checklist-progress-bar {
-  width: auto;
+  width: 100%;
   height: 12px;
   flex-grow: 1;
 }
 .checklist-progress-bar-container .checklist-progress-bar .checklist-progress {
-  width: auto;
+  padding: 0;
 }
 .card-checklists {
   display: flex;
