@@ -30,6 +30,7 @@
 .minicard .dates {
   flex-direction: column;
   gap: 6px;
+  width: 100%;
 }
 .minicard .date {
   margin: 0;
@@ -49,8 +50,9 @@
   margin-right: 8px;
 }
 .minicard .minicard-title {
-  marrgin-top: 6px;
+  margin-top: 6px;
   margin-bottom: 4px;
+  width: 100%;
 }
 .minicard .minicard-title p:last-child {
   margin-top: 4px;
@@ -64,4 +66,21 @@
 .minicard .minicard-assignees,
 .minicard .minicard-creator {
   margin-left: 0px;
+  padding: 0;
+  width: 100%;
+}
+.minicard .minicard-description {
+  padding: 4px 0;
+  margin: 0;
+  border-radius: 4px;
+}
+.minicard .minicard-description .viewer {
+  margin: 0;
+  padding: 4px;
+  line-height: 100%;
+  height: fit-content;
+  min-height: fit-content;
+}
+.minicard .minicard-description .viewer p {
+  margin: 0;
 }
