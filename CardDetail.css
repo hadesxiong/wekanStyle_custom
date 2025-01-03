@@ -1,0 +1,280 @@
+/* about card detail */
+@media screen and (min-width: 801px) {
+  .card-details {
+    right: 0;
+    width: 50%;
+    left: auto;
+  }
+  .card-details-maximized {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .card-details-maximized .card-details-left {
+    padding-right: 20px;
+    width: calc(50% - 40px);
+  }
+  .card-details-maximized .card-details-right {
+    left: 50%;
+    width: calc(50% - 40px);
+    border-left: solid 2px #dbdbdb;
+  }
+}
+
+.card-details .card-details-canvas {
+  padding: 0;
+}
+.card-details .card-details-header {
+  margin: 0;
+  padding: 12px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 12px;
+}
+.card-details .card-details-header .card-details-title {
+  margin: 0;
+  width: 100%;
+  margin-left: 20px;
+}
+.card-details .card-details-canvas .card-details-header .close-card-details {
+  margin-right: 20px;
+}
+.card-details .card-details-header .card-details-title div p {
+  margin: 0;
+}
+.card-details .card-details-header .close-card-details,
+.card-details .card-details-header .maximize-card-details,
+.card-details .card-details-header .minimize-card-details {
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+.card-details .card-details-header .card-details-menu {
+  font-size: 18px;
+  padding: 0;
+}
+.card-details .card-details-header .card-copy-button {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+.card-details-path {
+  display: none;
+}
+.card-details-left {
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.card-details .card-details-items .card-details-item.card-details-item-labels {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 100%;
+}
+
+.card-label {
+  border: 0px solid transparent;
+  margin: 0;
+  min-height: auto;
+  padding: 8px;
+}
+.card-label.add-label {
+  width: fit-content;
+}
+.js-add-labels,
+.js-start-date,
+.js-received-date,
+.js-due-date,
+.js-end-date {
+  display: flex;
+  gap: 6px;
+}
+.js-received-date {
+  display: flex;
+}
+.card-details .card-details-items {
+  margin: 0;
+  gap: 16px;
+}
+
+.card-details .card-details-items .card-details-item.card-details-item-creator,
+.card-details .card-details-items .card-details-item.card-details-item-received,
+.card-details .card-details-items .card-details-item.card-details-item-start,
+.card-details .card-details-items .card-details-item.card-details-item-due,
+.card-details .card-details-items .card-details-item.card-details-item-end {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 35%;
+  flex-grow: 1;
+}
+.card-details .card-details-items .card-details-item.card-details-item-creator {
+  max-width: 50%;
+}
+.card-details .card-details-items .card-details-item.card-details-item-members {
+  max-width: 50%;
+  width: 50%;
+  margin-right: 0;
+}
+.card-details
+  .card-details-items
+  .card-details-item.card-details-item-members
+  .member.js-member {
+  margin-right: 8px;
+}
+.card-details
+  .card-details-items
+  .card-details-item.card-details-item-members
+  .card-details-item-title {
+  margin-bottom: 8px;
+}
+.card-details-left .js-open-inlined-form:first-child {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.add-checklist.js-open-inlined-form {
+  margin-bottom: 12px;
+}
+
+.toggle-label {
+  width: 32px;
+  height: 16px;
+}
+.toggle-label:after {
+  left: -1px;
+  top: -1px;
+  width: 18px;
+  height: 18px;
+}
+
+.card-details .card-details-items .card-details-sort-order {
+  flex-direction: column;
+  gap: 8px;
+  max-width: 50%;
+}
+
+.card-details .card-details-items .card-details-show-lists {
+  flex-direction: column;
+  gap: 8px;
+  max-width: 50%;
+}
+
+.add-checklist-top {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.material-toggle-switch {
+  align-items: center;
+}
+.card-checklists {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card-checklist-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.checklist {
+  border: 1px solid #4d4d4d;
+  border-radius: 4px;
+  padding: 8px;
+}
+.add-checklist.js-open-inlined-form {
+  display: none;
+}
+
+.checklists-title {
+  align-items: center;
+}
+.card-checklist-attachmentGalleries {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.js-add-attachment {
+  margin-top: 0;
+  padding: 8px;
+}
+.attachment-details {
+  margin-right: 0;
+}
+.attachment-thumbnail-container {
+  width: auto;
+  min-width: 80px;
+  max-width: 80px;
+  max-height: 100px;
+}
+.attachment-thumbnail-text {
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.js-new-comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.new-comment {
+  margin: 0 0 0 38px;
+}
+.new-comment a.fa.fa-brands.fa-markdown {
+  top: 10px;
+  right: 36px;
+  bottom: auto;
+  left: auto;
+}
+.new-comment a.fa.fa-copy {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  left: auto;
+  float: none;
+}
+.js-new-comment-form .copied-tooltip {
+  padding: 6px 8px;
+  width: fit-content;
+  border-radius: 4px;
+  position: absolute;
+  right: 64px;
+  top: 8px;
+}
+.new-comment textarea {
+  margin: 0;
+}
+
+.comments .comment {
+  margin: 0;
+  padding: 0;
+  gap: 6px;
+}
+.comments .comment .comment-desc {
+  margin: 0;
+}
+.comments .comment .comment-member {
+  color: #165dff;
+  margin-left: 2px;
+}
+.card-details-right {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+}
+.activity-title {
+  margin: 0px;
+  padding-bottom: 4px;
+}
+.card-details .activities {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.activities .activity {
+  padding: 4px 0;
+  margin: 0;
+  gap: 8px;
+}

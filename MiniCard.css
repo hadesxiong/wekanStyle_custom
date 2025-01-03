@@ -1,0 +1,67 @@
+/* about mini card */
+.board-color-belize .minicard {
+  border-radius: 4px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.board-color-belize .is-selected .minicard {
+  border-left: 0px solid transparent;
+  border-bottom: 3px solid #2980b9;
+}
+.is-selected .minicard {
+  transform: translateX(0px);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.minicard-details-menu-with-handle {
+  padding: 0px;
+  margin-bottom: 2px;
+}
+.minicard .handle {
+  right: 12px;
+  top: 12px;
+  width: auto;
+  height: auto;
+}
+.minicard .handle .fa-arrows {
+  font-size: 18px;
+}
+.minicard .dates {
+  flex-direction: column;
+  gap: 6px;
+}
+.minicard .date {
+  margin: 0;
+}
+.card-date {
+  padding: 6px;
+  display: flex;
+  gap: 4px;
+}
+.card-date time::before {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 100%;
+  margin-right: 8px;
+}
+.minicard .minicard-title {
+  marrgin-top: 6px;
+  margin-bottom: 4px;
+}
+.minicard .minicard-title p:last-child {
+  margin-top: 4px;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.minicard .minicard-creator {
+  border-color: #f2f2f2;
+}
+.minicard .minicard-members,
+.minicard .minicard-assignees,
+.minicard .minicard-creator {
+  margin-left: 0px;
+}
