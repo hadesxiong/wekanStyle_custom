@@ -1,0 +1,98 @@
+/* abount swimlane and main page */
+.header-quick-access#headerIsSettingDatabaseCallDone {
+  display: none !important;
+}
+.board-color-belize#header-quick-access {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#header-quick-access .allBoards {
+  font-size: 1rem;
+}
+.header-quick-access-list {
+  font-size: 1rem;
+}
+#header-quick-access #header-user-bar .header-user-bar-name,
+#header-quick-access #header-help {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  width: fit-content;
+  height: fit-content;
+  gap: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+#header-quick-access #header-user-bar .header-user-bar-avatar {
+  top: 0px;
+  margin-right: 0px;
+}
+.swimlane {
+  gap: 16px;
+  background-color: transparent;
+  padding: 16px;
+}
+.swimlane .swimlane-header-wrap {
+  padding: 8px;
+  font-size: 0.875rem;
+}
+.board-color-belize .list {
+  border-radius: 4px;
+}
+.list-group {
+  height: auto;
+}
+.list-header.list-header-card-count {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-height: fit-content;
+  padding: 12px;
+}
+.list-header-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+.list-header .list-header-plus-top,
+.js-open-list-menu,
+.list-header-menu a {
+  padding-left: 0;
+}
+.list-header .list-header-plus-top {
+  margin-right: 0;
+}
+.list-header .list-header-collapse-left {
+  margin-right: 0;
+}
+.list:first-child {
+  height: fit-content;
+}
+.board-color-belize .list {
+  padding-bottom: 0;
+}
+.header-board-menu p {
+  font-size: 1rem;
+}
+.board-header-btns a span {
+  font-size: 0.875rem;
+}
+.board-color-belize .list-body {
+  margin: 0;
+}
+.list-body {
+  padding: 12px;
+}
+
+.card-details .card-details-items .card-details-item {
+  display: flex;
+  gap: 8px;
+}
