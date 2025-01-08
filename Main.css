@@ -36,12 +36,103 @@
 .swimlane {
   gap: 16px;
   background-color: transparent;
-  padding: 16px;
 }
 .swimlane .swimlane-header-wrap {
-  padding: 8px;
-  font-size: 0.875rem;
+  flex-direction: row-reverse;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
+.swimlane .swimlane-header-wrap .swimlane-header div p {
+  margin: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 16px;
+}
+.board-wrapper .board-canvas {
+  padding: 16px;
+}
+.board-wrapper .board-canvas .js-swimlane {
+  padding: 16px;
+  gap: 16px;
+  background-color: transparent;
+}
+.swimlane .swimlane-header-wrap .swimlane-header-menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: unset;
+  padding: unset;
+  margin-left: 16px;
+}
+.swimlane .swimlane-header-wrap .js-inlined-form {
+  width: 100%;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.swimlane .swimlane-header-wrap .js-inlined-form .list-composer {
+  display: flex;
+  gap: 8px
+}
+.swimlane .swimlane-header-wrap .js-inlined-form .list-composer input {
+  margin: unset;
+  
+}
+.swimlane .swimlane-header-wrap .js-inlined-form .list-composer .edit-controls {
+  margin: unset;
+  gap: 8px;
+}
+.swimlane .swimlane-header-wrap .js-inlined-form .list-composer .edit-controls button {
+  width: 80px;
+  box-shadow: none;
+}
+.swimlane .swimlane-header-wrap .js-inlined-form .list-composer .edit-controls a {
+  margin: 0;
+}
+.swimlane .swimlane-header-wrap .swimlane-header-menu a {
+  font-size: 18px;
+}
+.swimlane .swimlane-header-wrap .swimlane-header-plus-icon {
+  padding: unset;
+}
+.content form .edit-controls {
+  gap: 8px;
+  margin-bottom: 0px;
+}
+.content .pop-over-list {
+  display: flex;
+  flex-direction: column;
+}
+.content .pop-over-list li {
+  display: block;
+}
+.content .pop-over-list li a i.fa {
+  width: 16px;
+  text-align: center;
+}
+.content .pop-over-list li a {
+  gap: 6px;
+}
+.content .pop-over-list li a.js-select-visibility,
+.content .pop-over-list li a.js-select-watch {
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.content .pop-over-list li:last-child > a.js-select-visibility,
+.content .pop-over-list li:last-child > a.js-select-watch {
+  margin-bottom: 0;
+}
+.content form label input.js-board-name,
+.content form label textarea.js-board-desc {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.content form input.primary {
+  margin-bottom: 0;
+}
+
 .board-color-belize .list {
   border-radius: 4px;
 }
@@ -95,4 +186,7 @@
 .card-details .card-details-items .card-details-item {
   display: flex;
   gap: 8px;
+}
+.list-header-add {
+  padding: 8px 12px;
 }

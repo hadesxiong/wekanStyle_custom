@@ -1,0 +1,34 @@
+/* about side bar */
+.board-sidebar {
+    width: 40vw;
+}
+.sidebar .sidebar-content {
+    padding: 12px 20px;
+}
+.sidebar-actions {
+    padding: 20px 12px 0px 20px;
+}
+.sidebar-xmark {
+    position:unset;
+    padding: 0;
+}
+.sidebar .sidebar-content h2,
+.sidebar .sidebar-content h3 {
+    margin-bottom: 12px;
+}
+.sidebar .sidebar-content .sidebar-list .js-list-filter input {
+    margin-bottom: 0;
+}
+.sidebar .sidebar-content ul.sidebar-list li > a .card-label {
+    margin-right: 8px;
+    margin-top: 0;
+}
+.sidebar .sidebar-content .list-body {
+    padding: 0;
+}
+.sidebar .sidebar-content .list-body div hr {
+    margin: 12px 0;
+}
+.sidebar .sidebar-content .list-body .minicards .minicard-wrapper{
+    margin: 8px 0;
+}
