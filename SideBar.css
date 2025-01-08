@@ -32,3 +32,14 @@
 .sidebar .sidebar-content .list-body .minicards .minicard-wrapper{
     margin: 8px 0;
 }
+.sidebar .sidebar-content .board-widget .board-widget-content {
+    display: flex;
+    gap: 8px;
+}
+.sidebar .sidebar-content .board-widget .board-widget-content .card-label {
+    padding: 4px 8px;
+}
+.basicTabs-container .tabs-content-container .tabs-content .board-widget-content{
+    display: flex;
+    gap: 8px;
+}
