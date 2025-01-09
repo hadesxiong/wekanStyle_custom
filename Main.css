@@ -190,3 +190,62 @@
 .list-header-add {
   padding: 8px 12px;
 }
+.palette-colors {
+  gap: 8px
+}
+.edit-label .card-label {
+  width: 24px;
+  height: 24px;
+  max-width: 24px;
+  margin: 0;
+}
+.content .edit-label button {
+  margin-bottom: 0px;
+  margin-top: 12px;
+}
+.content .board-subtask-settings,
+.content .board-card-settings {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.content .board-subtask-settings h3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.content .board-card-settings h3 {
+  font-weight: 600;
+}
+.content .board-subtask-settings h3 a {
+  display: flex;
+  align-items: center;
+}
+.content .board-subtask-settings .check-div,
+.content .board-card-settings .check-div {
+  margin: 4px 0;
+}
+.content .board-card-settings .check-div a span {
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+}
+.content .board-card-settings .check-div a span i.fa {
+  width: 14px;
+  height: 14px;
+  margin: 0 4px;
+}
+.content .board-subtask-settings label .js-field-deposit-board,
+.content .board-subtask-settings label .js-field-deposit-list {
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+.content form label input.js-board-background-image-url {
+  margin-top: 8px;
+}
+.content form hr {
+  margin: 8px 0;
+}
+.content form div button.js-remove-background-image {
+  margin-bottom: 0;
+}
