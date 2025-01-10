@@ -95,3 +95,10 @@
 .add-controls .fa-times-thin {
   font-size: 18px;
 }
+.minicard .badges .badge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 6px;
+  margin:0;
+}
