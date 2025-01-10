@@ -1,18 +1,21 @@
-/* about card detail */
+/* this section is about card detail */
 @media screen and (min-width: 801px) {
   .card-details {
     right: 0;
     width: 50%;
     left: auto;
   }
+
   .card-details-maximized {
     width: 100%;
     overflow-x: hidden;
   }
+
   .card-details-maximized .card-details-left {
     padding-right: 20px;
     width: calc(50% - 40px);
   }
+
   .card-details-maximized .card-details-right {
     left: 50%;
     width: calc(50% - 40px);
@@ -23,6 +26,7 @@
 .card-details .card-details-canvas {
   padding: 0;
 }
+
 .card-details .card-details-header {
   margin: 0;
   padding: 12px 0px;
@@ -31,19 +35,23 @@
   flex-direction: row-reverse;
   gap: 12px;
 }
+
 .card-details .card-details-header .card-details-title {
   margin: 0;
   width: 100%;
   margin-left: 20px;
 }
+
 .card-details .card-details-canvas .card-details-header .inlined-form {
   width: 100%;
   padding: 20px;
   margin: 0;
 }
+
 .card-details .card-details-canvas .card-details-header .inlined-form textarea {
   height: fit-content !important;
 }
+
 .card-details
   .card-details-canvas
   .card-details-header
@@ -51,6 +59,7 @@
   .edit-controls {
   margin-bottom: 0px;
 }
+
 .card-details
   .card-details-canvas
   .card-details-header
@@ -60,6 +69,7 @@
   top: 30px;
   right: 30px;
 }
+
 .card-details
   .card-details-canvas
   .card-details-header
@@ -73,16 +83,18 @@
 
 .card-details .card-details-header .copied-tooltip {
   margin-right: 8px;
- 	padding: 2px 6px;
+  padding: 2px 6px;
   min-width: 56px;
 }
 
 .card-details .card-details-canvas .card-details-header .close-card-details {
   margin-right: 20px;
 }
+
 .card-details .card-details-header .card-details-title div p {
   margin: 0;
 }
+
 .card-details .card-details-header .close-card-details,
 .card-details .card-details-header .maximize-card-details,
 .card-details .card-details-header .minimize-card-details {
@@ -90,24 +102,29 @@
   margin: 0px;
   padding: 0px;
 }
+
 .card-details .card-details-header .card-details-menu {
   font-size: 18px;
   padding: 0;
 }
+
 .card-details .card-details-header .card-copy-button {
   font-size: 18px;
   padding: 0;
   margin: 0;
 }
+
 .card-details-path {
   display: none;
 }
+
 .card-details-left {
   padding: 16px 20px;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
+
 .card-details .card-details-items .card-details-item.card-details-item-labels {
   display: flex;
   flex-direction: column;
@@ -121,9 +138,11 @@
   min-height: auto;
   padding: 8px;
 }
+
 .card-label.add-label {
   width: fit-content;
 }
+
 .js-add-labels,
 .js-start-date,
 .js-received-date,
@@ -132,9 +151,11 @@
   display: flex;
   gap: 6px;
 }
+
 .js-received-date {
   display: flex;
 }
+
 .card-details .card-details-items {
   margin: 0;
   gap: 16px;
@@ -151,26 +172,31 @@
   max-width: 35%;
   flex-grow: 1;
 }
+
 .card-details .card-details-items .card-details-item.card-details-item-creator {
   max-width: 50%;
 }
+
 .card-details .card-details-items .card-details-item.card-details-item-members {
   max-width: 50%;
   width: 50%;
   margin-right: 0;
 }
+
 .card-details
   .card-details-items
   .card-details-item.card-details-item-members
   .member.js-member {
   margin-right: 8px;
 }
+
 .card-details
   .card-details-items
   .card-details-item.card-details-item-members
   .card-details-item-title {
   margin-bottom: 8px;
 }
+
 .card-details-left .js-open-inlined-form:first-child {
   font-size: 18px;
   margin-bottom: 12px;
@@ -184,6 +210,7 @@
   width: 32px;
   height: 16px;
 }
+
 .toggle-label:after {
   left: -1px;
   top: -1px;
@@ -207,31 +234,38 @@
   padding-left: 8px;
   padding-right: 8px;
 }
+
 .material-toggle-switch {
   align-items: center;
 }
+
 .checklist-progress-bar-container {
   padding-left: 8px;
   padding-right: 8px;
 }
+
 .checklist-progress-bar-container .checklist-progress-bar {
   width: 100%;
   height: 12px;
   flex-grow: 1;
 }
+
 .checklist-progress-bar-container .checklist-progress-bar .checklist-progress {
   padding: 0;
 }
+
 .card-checklists {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
 .card-checklist-items {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
+
 .checklist {
   border: 1px solid #dbdbdb;
   border-radius: 4px;
@@ -240,6 +274,7 @@
   flex-direction: column;
   gap: 12px;
 }
+
 .add-checklist.js-open-inlined-form {
   display: none;
 }
@@ -247,25 +282,31 @@
 .checklists-title {
   align-items: center;
 }
+
 .checklist-title {
   padding: 8px;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
+  justify-content: space-between;
 }
+
 .checklist-title .title {
   margin: 0;
   line-height: 100%;
   display: flex;
   gap: 8px;
 }
+
 .checklist-title > span {
   display: none;
 }
+
 .checklist-title span.fa.checklist-handle {
   padding: 0;
   float: none;
 }
+
 .checklist-title .title .viewer p {
   margin: 0;
 }
@@ -273,6 +314,7 @@
 .js-checklist > .add-checklist-item {
   display: none;
 }
+
 .js-checklist .checklist-items {
   display: flex;
   flex-direction: column;
@@ -285,10 +327,12 @@
   margin: 0;
   width: fit-content;
 }
+
 .card-details-left .js-open-inlined-form:first-child {
   margin: 0;
   font-size: 14px;
 }
+
 .add-checklist-item {
   margin: 0;
   width: fit-content;
@@ -297,24 +341,29 @@
   border-radius: 4px;
   border: 1px solid #dbdbdb;
 }
+
 .card-checklist-attachmentGalleries {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
+
 .js-add-attachment {
   margin-top: 0;
   padding: 8px;
 }
+
 .attachment-details {
   margin-right: 0;
 }
+
 .attachment-thumbnail-container {
   width: auto;
   min-width: 80px;
   max-width: 80px;
   max-height: 100px;
 }
+
 .attachment-thumbnail-text {
   font-size: 16px;
   border-radius: 4px;
@@ -325,15 +374,18 @@
   flex-direction: column;
   gap: 8px;
 }
+
 .new-comment {
   margin: 0 0 0 38px;
 }
+
 .new-comment a.fa.fa-brands.fa-markdown {
   top: 10px;
   right: 36px;
   bottom: auto;
   left: auto;
 }
+
 .new-comment a.fa.fa-copy {
   position: absolute;
   right: 10px;
@@ -341,6 +393,7 @@
   left: auto;
   float: none;
 }
+
 .js-new-comment-form .copied-tooltip {
   padding: 6px 8px;
   width: fit-content;
@@ -349,6 +402,7 @@
   right: 64px;
   top: 8px;
 }
+
 .new-comment textarea {
   margin: 0;
 }
@@ -358,29 +412,86 @@
   padding: 0;
   gap: 6px;
 }
+
 .comments .comment .comment-desc {
   margin: 0;
 }
+
 .comments .comment .comment-member {
   color: #165dff;
   margin-left: 2px;
 }
+
 .card-details-right {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 12px;
 }
+
 .activity-title {
   margin: 0px;
   padding-bottom: 4px;
 }
+
 .card-details .activities {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
+
 .activities .activity {
   padding: 4px 0;
   margin: 0;
   gap: 8px;
+}
+
+.content .datepicker-container form.edit-date .fields .left .js-date-field,
+.content .datepicker-container form.edit-date .fields .right .js-time-field {
+  margin-top: 12px;
+}
+.content .datepicker-container form.edit-date button {
+  margin-bottom: 4px;
+}
+.content ul.edit-labels-pop-over {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.content ul.edit-labels-pop-over li.js-card-label-item {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.content ul.edit-labels-pop-over span.card-label {
+  width: auto;
+  flex-grow: 1;
+}
+.card-details-canvas
+  .card-details-left
+  .card-details-items
+  .card-details-item
+  a.js-add-labels
+  span.card-label {
+  min-width: 12px;
+}
+.content form.edit-label input.js-label-name,
+.content form.edit-label div.palette-colors,
+.content form.create-label input.js-label-name,
+.content form.create-label div.palette-colors {
+  margin-top: 8px;
+}
+.content form.create-label div.palette-colors {
+  justify-content: space-between;
+}
+.content form.create-label button {
+  margin-bottom: 4px;
+  margin-top: 12px;
+}
+.edit-labels-pop-over {
+  margin-bottom: 0;
+}
+.create-label .card-label {
+  margin: 0;
 }

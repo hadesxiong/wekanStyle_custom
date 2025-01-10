@@ -1,4 +1,4 @@
-/* about mini card */
+/* this section is about mini card */
 .board-color-belize .minicard {
   border-radius: 4px;
   padding: 12px;
@@ -13,6 +13,9 @@
 .is-selected .minicard {
   transform: translateX(0px);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.minicard-details-menu {
+  padding-left: 0;
 }
 .minicard-details-menu-with-handle {
   padding: 0px;
